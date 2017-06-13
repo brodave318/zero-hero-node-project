@@ -7,4 +7,4 @@ Build an "Events" tracking app from the course 'Node.js - From Zero to Web apps"
 * Node template engines
 * MongoDB
 
-I am not using the Cloud9 environment because I don't really like it.
+I am not using the Cloud9 environment because of preference.
