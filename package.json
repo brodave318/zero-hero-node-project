@@ -21,11 +21,13 @@
     "async": "^2.4.1",
     "express": "^4.15.3",
     "gulp": "^3.9.1",
-    "socket.io": "^2.0.3"
+    "socket.io": "^2.0.3",
+    "wiredep": "^4.0.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-jshint": "^2.0.4",
-    "jshint": "^2.9.4"
+    "jshint": "^2.9.4",
+    "wiredep": "^4.0.0"
   }
 }
