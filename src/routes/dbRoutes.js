@@ -71,14 +71,14 @@ var eventsData = [ {
 dbRouter.route('/AddEventData')
   .get(function(req, res) {
 
-    var url = 'mongodb://localhost:27017/eventsApp';
-    mongodb.connect(url, function(err, db) {
-      var collection = db.collection('events');
-      collection.insertMany(eventsData, function(err, results) {
-        res.send(results);
-        db.close();
-      });
-    });
+    // var url = 'mongodb://localhost:27017/eventsApp';
+    // mongodb.connect(url, function(err, db) {
+    //   var collection = db.collection('events');
+    //   collection.insertMany(eventsData, function(err, results) {
+    //     res.send(results);
+    //     db.close();
+    //   });
+    // });
   });
 
 module.exports = dbRouter;
